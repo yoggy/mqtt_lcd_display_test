@@ -25,3 +25,5 @@ autorestart     = true
 user            = pi
 environment     = HOME=/home/yoggy/
 redirect_stderr = true
+startsecs       = 5
+startretries    = 10
